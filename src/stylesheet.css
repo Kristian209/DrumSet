@@ -1,0 +1,29 @@
+body{
+  text-align: center;
+  background: url('https://images6.alphacoders.com/418/418219.jpg');
+  font-family: sans-serif;
+}
+.drum-pads{
+  display: grid;
+  grid-template-columns: repeat(9, 100px);
+  grid-row: 5;
+  justify-content: center;
+  grid-gap: 10px;
+  margin-top: 250px;
+}
+.key{
+  border: black solid 3px;
+  min-height: 1vh;
+  padding: 1rem .5rem;
+  transition: all 0.5s;
+  color: white;
+}
+.playing{
+  transform: scale(1.5);
+  border-color: #ffc600;
+  border-shadow: 0 0 20px #ffc600;
+}
+#keyboard{
+  font-size: 20px;
+  border: solid 1px;
+}
